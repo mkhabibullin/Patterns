@@ -1,0 +1,11 @@
+c:\Users\mkhabibullin\documents\visual studio 2015\Projects\Patterns\AbstractFactory\bin\Debug\AbstractFactory.exe.config
+C:\Users\mkhabibullin\documents\visual studio 2015\Projects\Patterns\AbstractFactory\bin\Debug\AbstractFactory.exe
+C:\Users\mkhabibullin\documents\visual studio 2015\Projects\Patterns\AbstractFactory\bin\Debug\AbstractFactory.pdb
+C:\Users\mkhabibullin\documents\visual studio 2015\Projects\Patterns\AbstractFactory\obj\Debug\AbstractFactory.csprojResolveAssemblyReference.cache
+C:\Users\mkhabibullin\documents\visual studio 2015\Projects\Patterns\AbstractFactory\obj\Debug\AbstractFactory.exe
+C:\Users\mkhabibullin\documents\visual studio 2015\Projects\Patterns\AbstractFactory\obj\Debug\AbstractFactory.pdb
+C:\Projects\Patterns\Patterns\AbstractFactory\bin\Debug\AbstractFactory.exe.config
+C:\Projects\Patterns\Patterns\AbstractFactory\obj\Debug\AbstractFactory.exe
+C:\Projects\Patterns\Patterns\AbstractFactory\obj\Debug\AbstractFactory.pdb
+C:\Projects\Patterns\Patterns\AbstractFactory\bin\Debug\AbstractFactory.exe
+C:\Projects\Patterns\Patterns\AbstractFactory\bin\Debug\AbstractFactory.pdb

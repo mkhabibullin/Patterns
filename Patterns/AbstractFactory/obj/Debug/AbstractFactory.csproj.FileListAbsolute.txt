@@ -9,3 +9,4 @@ C:\Projects\Patterns\Patterns\AbstractFactory\obj\Debug\AbstractFactory.exe
 C:\Projects\Patterns\Patterns\AbstractFactory\obj\Debug\AbstractFactory.pdb
 C:\Projects\Patterns\Patterns\AbstractFactory\bin\Debug\AbstractFactory.exe
 C:\Projects\Patterns\Patterns\AbstractFactory\bin\Debug\AbstractFactory.pdb
+D:\Projects\Patterns\Patterns\AbstractFactory\bin\Debug\AbstractFactory.exe.config

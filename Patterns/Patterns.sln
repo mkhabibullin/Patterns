@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{6DA7F9BC-18A7-46E8-9525-D2CE8038D784}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CreateionalPatterns", "CreateionalPatterns", "{6BDF7B2C-77B8-4E2C-AB09-096ECBC8D98E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SturcturalPatterns", "SturcturalPatterns", "{1773CC4B-59D6-4372-B7DE-F296E3949C3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{56D1B128-F59B-49D6-B085-BD7B58CC9BF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +21,16 @@ Global
 		{6DA7F9BC-18A7-46E8-9525-D2CE8038D784}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DA7F9BC-18A7-46E8-9525-D2CE8038D784}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DA7F9BC-18A7-46E8-9525-D2CE8038D784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D1B128-F59B-49D6-B085-BD7B58CC9BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D1B128-F59B-49D6-B085-BD7B58CC9BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D1B128-F59B-49D6-B085-BD7B58CC9BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D1B128-F59B-49D6-B085-BD7B58CC9BF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6DA7F9BC-18A7-46E8-9525-D2CE8038D784} = {6BDF7B2C-77B8-4E2C-AB09-096ECBC8D98E}
+		{56D1B128-F59B-49D6-B085-BD7B58CC9BF4} = {1773CC4B-59D6-4372-B7DE-F296E3949C3E}
 	EndGlobalSection
 EndGlobal

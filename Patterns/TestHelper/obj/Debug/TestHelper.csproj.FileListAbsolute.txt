@@ -1,0 +1,6 @@
+D:\Projects\Patterns\Patterns\TestHelper\bin\Debug\TestHelper.exe.config
+D:\Projects\Patterns\Patterns\TestHelper\bin\Debug\TestHelper.exe
+D:\Projects\Patterns\Patterns\TestHelper\bin\Debug\TestHelper.pdb
+D:\Projects\Patterns\Patterns\TestHelper\obj\Debug\TestHelper.csprojResolveAssemblyReference.cache
+D:\Projects\Patterns\Patterns\TestHelper\obj\Debug\TestHelper.exe
+D:\Projects\Patterns\Patterns\TestHelper\obj\Debug\TestHelper.pdb

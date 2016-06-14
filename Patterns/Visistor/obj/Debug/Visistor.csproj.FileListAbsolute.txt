@@ -1,0 +1,6 @@
+D:\Projects\Patterns\Patterns\Visistor\bin\Debug\Visistor.exe.config
+D:\Projects\Patterns\Patterns\Visistor\bin\Debug\Visistor.exe
+D:\Projects\Patterns\Patterns\Visistor\bin\Debug\Visistor.pdb
+D:\Projects\Patterns\Patterns\Visistor\obj\Debug\Visistor.csprojResolveAssemblyReference.cache
+D:\Projects\Patterns\Patterns\Visistor\obj\Debug\Visistor.exe
+D:\Projects\Patterns\Patterns\Visistor\obj\Debug\Visistor.pdb

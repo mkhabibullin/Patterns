@@ -1,0 +1,6 @@
+D:\Projects\Patterns\Patterns\VisistorWithOverloadMethods\bin\Debug\VisistorWithOverloadMethods.exe.config
+D:\Projects\Patterns\Patterns\VisistorWithOverloadMethods\bin\Debug\VisistorWithOverloadMethods.exe
+D:\Projects\Patterns\Patterns\VisistorWithOverloadMethods\bin\Debug\VisistorWithOverloadMethods.pdb
+D:\Projects\Patterns\Patterns\VisistorWithOverloadMethods\obj\Debug\VisistorWithOverloadMethods.csprojResolveAssemblyReference.cache
+D:\Projects\Patterns\Patterns\VisistorWithOverloadMethods\obj\Debug\VisistorWithOverloadMethods.exe
+D:\Projects\Patterns\Patterns\VisistorWithOverloadMethods\obj\Debug\VisistorWithOverloadMethods.pdb

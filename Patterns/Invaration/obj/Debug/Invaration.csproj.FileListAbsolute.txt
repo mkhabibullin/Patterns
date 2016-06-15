@@ -1,0 +1,6 @@
+D:\Projects\Patterns\Patterns\Invaration\bin\Debug\Invaration.exe.config
+D:\Projects\Patterns\Patterns\Invaration\bin\Debug\Invaration.exe
+D:\Projects\Patterns\Patterns\Invaration\bin\Debug\Invaration.pdb
+D:\Projects\Patterns\Patterns\Invaration\obj\Debug\Invaration.exe
+D:\Projects\Patterns\Patterns\Invaration\obj\Debug\Invaration.pdb
+D:\Projects\Patterns\Patterns\Invaration\obj\Debug\Invaration.csprojResolveAssemblyReference.cache

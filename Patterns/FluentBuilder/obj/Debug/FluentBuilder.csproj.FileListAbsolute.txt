@@ -1,0 +1,6 @@
+D:\Projects\Patterns\Patterns\FluentBuilder\bin\Debug\FluentBuilder.exe.config
+D:\Projects\Patterns\Patterns\FluentBuilder\bin\Debug\FluentBuilder.exe
+D:\Projects\Patterns\Patterns\FluentBuilder\bin\Debug\FluentBuilder.pdb
+D:\Projects\Patterns\Patterns\FluentBuilder\obj\Debug\FluentBuilder.csprojResolveAssemblyReference.cache
+D:\Projects\Patterns\Patterns\FluentBuilder\obj\Debug\FluentBuilder.exe
+D:\Projects\Patterns\Patterns\FluentBuilder\obj\Debug\FluentBuilder.pdb

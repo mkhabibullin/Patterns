@@ -1,0 +1,6 @@
+D:\Projects\Patterns\Patterns\SimpleBuilder\bin\Debug\SimpleBuilder.exe.config
+D:\Projects\Patterns\Patterns\SimpleBuilder\bin\Debug\SimpleBuilder.exe
+D:\Projects\Patterns\Patterns\SimpleBuilder\bin\Debug\SimpleBuilder.pdb
+D:\Projects\Patterns\Patterns\SimpleBuilder\obj\Debug\SimpleBuilder.csprojResolveAssemblyReference.cache
+D:\Projects\Patterns\Patterns\SimpleBuilder\obj\Debug\SimpleBuilder.exe
+D:\Projects\Patterns\Patterns\SimpleBuilder\obj\Debug\SimpleBuilder.pdb

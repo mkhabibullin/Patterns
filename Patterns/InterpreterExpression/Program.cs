@@ -92,6 +92,8 @@ namespace InterpreterExpression
             //Also sorts details by their weight (type conversion demonstrated)
             Func<Detail, Detail, int> detsorter = ExpressionBuilder.BuildFunctor<Detail, Detail, int>("int(Weight-arg1.Weight)");
             details.Sort(detsorter.Invoke);
+
+            Console.ReadKey();
         }
     }
 

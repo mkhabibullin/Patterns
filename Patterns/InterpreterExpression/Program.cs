@@ -67,6 +67,10 @@ namespace InterpreterExpression
             #endregion
 
             //This selects all orders for which supplier is from London and its status <= 15
+            Func<Order, bool> testFilter = ExpressionBuilder.BuildFunctor<Order, bool>("Supplier.City<>\"London\"");
+            List<Order> testFilterOrders = new List<Order>(orders.Where(testFilter));
+
+            //This selects all orders for which supplier is from London and its status <= 15
             Func<Order, bool> filterOrders = ExpressionBuilder.BuildFunctor<Order, bool>("not(Supplier.City<>\"London\" or Supplier.Status>5*3)");
             List<Order> londonOrders = new List<Order>(orders.Where(filterOrders));
 

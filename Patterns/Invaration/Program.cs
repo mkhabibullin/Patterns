@@ -77,4 +77,27 @@ namespace Invaration
             return acc;
         }
     }
+
+    class Base
+    {
+
+    }
+
+    interface IBase<T> where T : Base
+    {
+        void Dot(T t);
+    }
+
+    class A : Base
+    {
+        
+    }
+
+    class Service : IBase<A>
+    {
+        public void Dot(A t)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }

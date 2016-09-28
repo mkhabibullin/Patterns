@@ -21,7 +21,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestHelper", "TestHelper\Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisistorWithDynamic", "VisistorWithOverloadMethods\VisistorWithDynamic.csproj", "{92673695-6DDB-4A03-A23A-556909BCACF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invaration", "Invaration\Invaration.csproj", "{838AADBF-75D9-4B02-BAD3-C73F78A31762}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Varation", "Invaration\Varation.csproj", "{838AADBF-75D9-4B02-BAD3-C73F78A31762}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{61ECA588-DE9A-4083-8A38-A6A6FE4E3DED}"
 EndProject
@@ -45,11 +45,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpreterSimple", "Interp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpreterExpression", "InterpreterExpression\InterpreterExpression.csproj", "{63050257-872E-4580-B710-B4852306691A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Invariations", "Invariations", "{9B8AD949-B3E7-4EFC-BC09-367D4B2DD396}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Variations", "Variations", "{9B8AD949-B3E7-4EFC-BC09-367D4B2DD396}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvariationDelegate", "InvariationDelegate\InvariationDelegate.csproj", "{5C7E8B84-876E-473B-AD45-D07A98EAF2EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariationDelegate", "InvariationDelegate\VariationDelegate.csproj", "{5C7E8B84-876E-473B-AD45-D07A98EAF2EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Invariance", "Invariance\Invariance.csproj", "{0DA28A73-E1E6-42CA-B040-AAA763E67502}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variance", "Invariance\Variance.csproj", "{0DA28A73-E1E6-42CA-B040-AAA763E67502}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

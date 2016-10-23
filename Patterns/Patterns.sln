@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{6DA7F9BC-18A7-46E8-9525-D2CE8038D784}"
 EndProject
@@ -12,6 +12,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{56D1B128-F59B-49D6-B085-BD7B58CC9BF4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BehavioralPatterns", "BehavioralPatterns", "{C8E59609-E92F-44A1-8714-9B18730F206D}"
+	ProjectSection(SolutionItems) = preProject
+		Page.html = Page.html
+		Visitor.js = Visitor.js
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisistorWithReflection", "Visistor\VisistorWithReflection.csproj", "{ABCE3863-8B9F-4E77-9042-A062D36CF953}"
 EndProject

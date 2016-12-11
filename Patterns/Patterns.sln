@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{6DA7F9BC-18A7-46E8-9525-D2CE8038D784}"
 EndProject
@@ -58,6 +58,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PLINQ", "PLINQ", "{32B5D6AA-AA4E-48D2-B598-4391FB738E38}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonTests", "CommonTests\CommonTests.csproj", "{A59B8792-A81D-4F87-A87B-A0289D54D78E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{384D4634-91EB-4FD2-AED1-422346CDBE70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -156,5 +158,6 @@ Global
 		{0DA28A73-E1E6-42CA-B040-AAA763E67502} = {5C1136BA-5430-405C-85D7-11554E9ABF75}
 		{32B5D6AA-AA4E-48D2-B598-4391FB738E38} = {5C1136BA-5430-405C-85D7-11554E9ABF75}
 		{A59B8792-A81D-4F87-A87B-A0289D54D78E} = {32B5D6AA-AA4E-48D2-B598-4391FB738E38}
+		{384D4634-91EB-4FD2-AED1-422346CDBE70} = {C8E59609-E92F-44A1-8714-9B18730F206D}
 	EndGlobalSection
 EndGlobal

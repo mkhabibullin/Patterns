@@ -51,6 +51,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="DelegateCovariance.cs" />
+    <Compile Include="DelegateVariative.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Choose>

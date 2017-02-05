@@ -45,7 +45,7 @@ namespace MultipleDispatchConsole
             var spaceship = new Spaceship();
             CollideWith(asteroid, spaceship);
             CollideWith(spaceship, spaceship);
-
+            
             Console.Read();
         }
     }

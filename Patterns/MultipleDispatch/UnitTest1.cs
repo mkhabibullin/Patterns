@@ -9,48 +9,48 @@ namespace MultipleDispatch
         [TestMethod]
         public void TestMethod1()
         {
-            var asteroid = new Asteroid();
-            var spaceship = new Spaceship();
-            CollideWith(asteroid, spaceship);
-            CollideWith(spaceship, spaceship);
+            var asteroid = new Program.Asteroid();
+            var spaceship = new Program.Spaceship();
+            Program.CollideWith(asteroid, spaceship);
+            Program.CollideWith(spaceship, spaceship);
         }
     }
 
     public class Program
     {
-        class Thing
+        public class Thing
         {
         }
 
-        class Asteroid : Thing
+        public class Asteroid : Thing
         {
         }
 
-        class Spaceship : Thing
+        public class Spaceship : Thing
         {
         }
 
-        static void CollideWithImpl(Asteroid x, Asteroid y)
+        public static void CollideWithImpl(Asteroid x, Asteroid y)
         {
             Console.WriteLine("Asteroid collides with Asteroid");
         }
 
-        static void CollideWithImpl(Asteroid x, Spaceship y)
+        public static void CollideWithImpl(Asteroid x, Spaceship y)
         {
             Console.WriteLine("Asteroid collides with Spaceship");
         }
 
-        static void CollideWithImpl(Spaceship x, Asteroid y)
+        public static void CollideWithImpl(Spaceship x, Asteroid y)
         {
             Console.WriteLine("Spaceship collides with Asteroid");
         }
 
-        static void CollideWithImpl(Spaceship x, Spaceship y)
+        public static void CollideWithImpl(Spaceship x, Spaceship y)
         {
             Console.WriteLine("Spaceship collides with Spaceship");
         }
 
-        static void CollideWith(Thing x, Thing y)
+        public static void CollideWith(Thing x, Thing y)
         {
             dynamic a = x;
             dynamic b = y;

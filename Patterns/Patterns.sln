@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{6DA7F9BC-18A7-46E8-9525-D2CE8038D784}"
 EndProject
@@ -72,6 +72,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OOP", "OOP", "{C26EBC71-44B3-44B3-B5E2-C052F3D96BFB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polimorfizm", "Polimorfizm\Polimorfizm.csproj", "{9DDAD1B0-1494-492F-B8AC-27689B6A65C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delegate", "Delegate", "{E2B0D729-EE26-4595-8149-85DA96C7627E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Closure", "Closure\Closure.csproj", "{4C3D0C0C-E49B-4D99-8537-859AA19C3272}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -155,6 +159,10 @@ Global
 		{9DDAD1B0-1494-492F-B8AC-27689B6A65C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DDAD1B0-1494-492F-B8AC-27689B6A65C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DDAD1B0-1494-492F-B8AC-27689B6A65C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3D0C0C-E49B-4D99-8537-859AA19C3272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3D0C0C-E49B-4D99-8537-859AA19C3272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3D0C0C-E49B-4D99-8537-859AA19C3272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3D0C0C-E49B-4D99-8537-859AA19C3272}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -189,5 +197,7 @@ Global
 		{EA9DC195-49E5-4E6B-A85D-B99603B0B733} = {7C55D276-74F6-4D8C-A52B-2A2FCB0E33E1}
 		{C26EBC71-44B3-44B3-B5E2-C052F3D96BFB} = {5C1136BA-5430-405C-85D7-11554E9ABF75}
 		{9DDAD1B0-1494-492F-B8AC-27689B6A65C2} = {C26EBC71-44B3-44B3-B5E2-C052F3D96BFB}
+		{E2B0D729-EE26-4595-8149-85DA96C7627E} = {5C1136BA-5430-405C-85D7-11554E9ABF75}
+		{4C3D0C0C-E49B-4D99-8537-859AA19C3272} = {E2B0D729-EE26-4595-8149-85DA96C7627E}
 	EndGlobalSection
 EndGlobal

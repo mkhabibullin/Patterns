@@ -15,3 +15,8 @@ D:\Projects\Patterns\Patterns\AbstractFactory\bin\Debug\AbstractFactory.pdb
 D:\Projects\Patterns\Patterns\AbstractFactory\obj\Debug\AbstractFactory.csprojResolveAssemblyReference.cache
 D:\Projects\Patterns\Patterns\AbstractFactory\obj\Debug\AbstractFactory.exe
 D:\Projects\Patterns\Patterns\AbstractFactory\obj\Debug\AbstractFactory.pdb
+D:\Projects\patterns\Patterns\Patterns\AbstractFactory\bin\Debug\AbstractFactory.exe.config
+D:\Projects\patterns\Patterns\Patterns\AbstractFactory\bin\Debug\AbstractFactory.exe
+D:\Projects\patterns\Patterns\Patterns\AbstractFactory\bin\Debug\AbstractFactory.pdb
+D:\Projects\patterns\Patterns\Patterns\AbstractFactory\obj\Debug\AbstractFactory.exe
+D:\Projects\patterns\Patterns\Patterns\AbstractFactory\obj\Debug\AbstractFactory.pdb

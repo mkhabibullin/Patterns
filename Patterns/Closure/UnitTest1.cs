@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Diagnostics;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Closure
 {
@@ -42,6 +43,29 @@ namespace Closure
             {
                 a.Invoke();
             }
+            // ------------------------------------------------
+            // 3
+            // 3
+            // 3
+            // ------------------------------------------------
+
+            actions = new List<Action>();
+            
+            foreach(var num in Enumerable.Range(1, 3))
+            {
+                //var indx = num;
+                actions.Add(() => Trace.WriteLine(num));
+            }
+
+            foreach (var a in actions)
+            {
+                a.Invoke();
+            }
+            // ------------------------------------------------
+            // 1
+            // 2
+            // 3
+            // ------------------------------------------------
         }
     }
 }

@@ -9,3 +9,9 @@ D:\Projects\patterns\Patterns\Patterns\VisistorWithOverloadMethods\bin\Debug\Vis
 D:\Projects\patterns\Patterns\Patterns\VisistorWithOverloadMethods\bin\Debug\VisistorWithOverloadMethods.pdb
 D:\Projects\patterns\Patterns\Patterns\VisistorWithOverloadMethods\obj\Debug\VisistorWithOverloadMethods.exe
 D:\Projects\patterns\Patterns\Patterns\VisistorWithOverloadMethods\obj\Debug\VisistorWithOverloadMethods.pdb
+C:\Projects\Patterns\Patterns\VisistorWithOverloadMethods\bin\Debug\VisistorWithOverloadMethods.exe.config
+C:\Projects\Patterns\Patterns\VisistorWithOverloadMethods\bin\Debug\VisistorWithOverloadMethods.exe
+C:\Projects\Patterns\Patterns\VisistorWithOverloadMethods\bin\Debug\VisistorWithOverloadMethods.pdb
+C:\Projects\Patterns\Patterns\VisistorWithOverloadMethods\obj\Debug\VisistorWithDynamic.csprojResolveAssemblyReference.cache
+C:\Projects\Patterns\Patterns\VisistorWithOverloadMethods\obj\Debug\VisistorWithOverloadMethods.exe
+C:\Projects\Patterns\Patterns\VisistorWithOverloadMethods\obj\Debug\VisistorWithOverloadMethods.pdb

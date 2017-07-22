@@ -50,11 +50,18 @@ namespace MultipleDispatch
             Console.WriteLine("Spaceship collides with Spaceship");
         }
 
+        public static void CollideWithImpl(Thing x, Thing y)
+        {
+            Console.WriteLine("Thing collides with Thing");
+        }
+
         public static void CollideWith(Thing x, Thing y)
         {
             dynamic a = x;
             dynamic b = y;
             Program.CollideWithImpl(a, b);
+
+            Program.CollideWithImpl(x, y);
         }
     }
 }

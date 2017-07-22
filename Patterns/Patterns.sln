@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carrying", "Carrying\Carryi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleDispatcher", "DoubleDispatcher\DoubleDispatcher.csproj", "{4B6E7B30-46F9-488D-A1CE-1866D0D14440}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMultipleDispatcher", "SimpleDispatcher\SimpleMultipleDispatcher.csproj", "{01835322-CE59-4BE0-B14B-25DD69FD6491}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -175,6 +177,10 @@ Global
 		{4B6E7B30-46F9-488D-A1CE-1866D0D14440}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B6E7B30-46F9-488D-A1CE-1866D0D14440}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B6E7B30-46F9-488D-A1CE-1866D0D14440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01835322-CE59-4BE0-B14B-25DD69FD6491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01835322-CE59-4BE0-B14B-25DD69FD6491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01835322-CE59-4BE0-B14B-25DD69FD6491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01835322-CE59-4BE0-B14B-25DD69FD6491}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -213,5 +219,6 @@ Global
 		{4C3D0C0C-E49B-4D99-8537-859AA19C3272} = {E2B0D729-EE26-4595-8149-85DA96C7627E}
 		{0AAB59E4-0BA4-4F3E-94A7-5EC72D0129F4} = {5C1136BA-5430-405C-85D7-11554E9ABF75}
 		{4B6E7B30-46F9-488D-A1CE-1866D0D14440} = {2AC09B6B-C000-47B6-9CB5-229E392B4035}
+		{01835322-CE59-4BE0-B14B-25DD69FD6491} = {7C55D276-74F6-4D8C-A52B-2A2FCB0E33E1}
 	EndGlobalSection
 EndGlobal

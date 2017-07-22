@@ -10,6 +10,18 @@ namespace DoubleDispatcher
     {
         static void Main(string[] args)
         {
+            ConcreteDispatcherFactory factory = new ConcreteDispatcherFactory();
+
+            var red = new RedCell();
+            var blue = new BlueCell();
+
+            var disp = factory.CreateDispatcher();
+
+            var result = red.AcceptVisitor(disp.Visit(blue));
+            Console.WriteLine(result);
+
+            Console.Write("Done");
+            Console.Read();
         }
     }
 

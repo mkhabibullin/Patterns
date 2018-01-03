@@ -8,6 +8,8 @@ namespace HightechStrategy
     {
         static void Main(string[] args)
         {
+            //https://habrahabr.ru/post/341134/
+
             var user = new User();
 
             var cart = new Cart(user);

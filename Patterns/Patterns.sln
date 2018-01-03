@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{6DA7F9BC-18A7-46E8-9525-D2CE8038D784}"
 EndProject
@@ -77,11 +77,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delegate", "Delegate", "{E2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Closure", "Closure\Closure.csproj", "{4C3D0C0C-E49B-4D99-8537-859AA19C3272}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carrying", "Carrying\Carrying.csproj", "{0AAB59E4-0BA4-4F3E-94A7-5EC72D0129F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carrying", "Carrying\Carrying.csproj", "{0AAB59E4-0BA4-4F3E-94A7-5EC72D0129F4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubleDispatcher", "DoubleDispatcher\DoubleDispatcher.csproj", "{4B6E7B30-46F9-488D-A1CE-1866D0D14440}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMultipleDispatcher", "SimpleDispatcher\SimpleMultipleDispatcher.csproj", "{01835322-CE59-4BE0-B14B-25DD69FD6491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HightechStrategy", "HightechStrategy\HightechStrategy.csproj", "{78E96A60-F5EB-4B79-9228-2AF9E7CAEC69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -181,6 +183,10 @@ Global
 		{01835322-CE59-4BE0-B14B-25DD69FD6491}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01835322-CE59-4BE0-B14B-25DD69FD6491}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01835322-CE59-4BE0-B14B-25DD69FD6491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78E96A60-F5EB-4B79-9228-2AF9E7CAEC69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78E96A60-F5EB-4B79-9228-2AF9E7CAEC69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78E96A60-F5EB-4B79-9228-2AF9E7CAEC69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78E96A60-F5EB-4B79-9228-2AF9E7CAEC69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -220,5 +226,9 @@ Global
 		{0AAB59E4-0BA4-4F3E-94A7-5EC72D0129F4} = {5C1136BA-5430-405C-85D7-11554E9ABF75}
 		{4B6E7B30-46F9-488D-A1CE-1866D0D14440} = {2AC09B6B-C000-47B6-9CB5-229E392B4035}
 		{01835322-CE59-4BE0-B14B-25DD69FD6491} = {7C55D276-74F6-4D8C-A52B-2A2FCB0E33E1}
+		{78E96A60-F5EB-4B79-9228-2AF9E7CAEC69} = {406A9963-A3BE-48A9-A0B0-DA4FCFC26AD3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E177E46-7F5F-4FAB-90AE-2875B2208342}
 	EndGlobalSection
 EndGlobal

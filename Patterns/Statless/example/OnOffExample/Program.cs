@@ -35,6 +35,8 @@ namespace OnOffExample
                 Console.WriteLine("Press any key to continue...");
                 Console.ReadKey(true);
             }
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey(true);
         }
     }
 }

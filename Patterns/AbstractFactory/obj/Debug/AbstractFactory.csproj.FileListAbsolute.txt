@@ -20,3 +20,4 @@ D:\Projects\patterns\Patterns\Patterns\AbstractFactory\bin\Debug\AbstractFactory
 D:\Projects\patterns\Patterns\Patterns\AbstractFactory\bin\Debug\AbstractFactory.pdb
 D:\Projects\patterns\Patterns\Patterns\AbstractFactory\obj\Debug\AbstractFactory.exe
 D:\Projects\patterns\Patterns\Patterns\AbstractFactory\obj\Debug\AbstractFactory.pdb
+C:\Projects\Patterns\Patterns\AbstractFactory\obj\Debug\AbstractFactory.csproj.CoreCompileInputs.cache

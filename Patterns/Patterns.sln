@@ -105,7 +105,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stateless_Tests", "Stateles
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composites", "Composites", "{1C3FC0F6-5EB7-49F3-ABB0-92A1B85D1E9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeEF", "CompositeEF\CompositeEF.csproj", "{9E08CDBA-A82E-4BE4-9FDF-893D952F4F39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeEF", "CompositeEF\CompositeEF.csproj", "{9E08CDBA-A82E-4BE4-9FDF-893D952F4F39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorBetterImpl", "VisitorBetterImpl\VisitorBetterImpl.csproj", "{98133846-14A3-49C2-A7C5-7413D1C6AB9D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -237,6 +239,10 @@ Global
 		{9E08CDBA-A82E-4BE4-9FDF-893D952F4F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E08CDBA-A82E-4BE4-9FDF-893D952F4F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E08CDBA-A82E-4BE4-9FDF-893D952F4F39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98133846-14A3-49C2-A7C5-7413D1C6AB9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98133846-14A3-49C2-A7C5-7413D1C6AB9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98133846-14A3-49C2-A7C5-7413D1C6AB9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98133846-14A3-49C2-A7C5-7413D1C6AB9D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -288,6 +294,7 @@ Global
 		{E0B928C3-7135-4DC6-82D5-BFF5DBCB8606} = {406A9963-A3BE-48A9-A0B0-DA4FCFC26AD3}
 		{1C3FC0F6-5EB7-49F3-ABB0-92A1B85D1E9C} = {1773CC4B-59D6-4372-B7DE-F296E3949C3E}
 		{9E08CDBA-A82E-4BE4-9FDF-893D952F4F39} = {1C3FC0F6-5EB7-49F3-ABB0-92A1B85D1E9C}
+		{98133846-14A3-49C2-A7C5-7413D1C6AB9D} = {2AC09B6B-C000-47B6-9CB5-229E392B4035}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4E177E46-7F5F-4FAB-90AE-2875B2208342}

@@ -9,3 +9,10 @@ D:\Projects\patterns\Patterns\Patterns\TestHelper\bin\Debug\TestHelper.exe
 D:\Projects\patterns\Patterns\Patterns\TestHelper\bin\Debug\TestHelper.pdb
 D:\Projects\patterns\Patterns\Patterns\TestHelper\obj\Debug\TestHelper.exe
 D:\Projects\patterns\Patterns\Patterns\TestHelper\obj\Debug\TestHelper.pdb
+C:\Projects\Patterns\Patterns\TestHelper\bin\Debug\TestHelper.exe.config
+C:\Projects\Patterns\Patterns\TestHelper\bin\Debug\TestHelper.exe
+C:\Projects\Patterns\Patterns\TestHelper\bin\Debug\TestHelper.pdb
+C:\Projects\Patterns\Patterns\TestHelper\obj\Debug\TestHelper.csprojResolveAssemblyReference.cache
+C:\Projects\Patterns\Patterns\TestHelper\obj\Debug\TestHelper.csproj.CoreCompileInputs.cache
+C:\Projects\Patterns\Patterns\TestHelper\obj\Debug\TestHelper.exe
+C:\Projects\Patterns\Patterns\TestHelper\obj\Debug\TestHelper.pdb

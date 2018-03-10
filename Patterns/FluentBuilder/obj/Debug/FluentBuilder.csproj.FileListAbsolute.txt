@@ -9,3 +9,9 @@ D:\Projects\patterns\Patterns\Patterns\FluentBuilder\bin\Debug\FluentBuilder.exe
 D:\Projects\patterns\Patterns\Patterns\FluentBuilder\bin\Debug\FluentBuilder.pdb
 D:\Projects\patterns\Patterns\Patterns\FluentBuilder\obj\Debug\FluentBuilder.exe
 D:\Projects\patterns\Patterns\Patterns\FluentBuilder\obj\Debug\FluentBuilder.pdb
+C:\Projects\Patterns\Patterns\FluentBuilder\bin\Debug\FluentBuilder.exe.config
+C:\Projects\Patterns\Patterns\FluentBuilder\bin\Debug\FluentBuilder.exe
+C:\Projects\Patterns\Patterns\FluentBuilder\bin\Debug\FluentBuilder.pdb
+C:\Projects\Patterns\Patterns\FluentBuilder\obj\Debug\FluentBuilder.csproj.CoreCompileInputs.cache
+C:\Projects\Patterns\Patterns\FluentBuilder\obj\Debug\FluentBuilder.exe
+C:\Projects\Patterns\Patterns\FluentBuilder\obj\Debug\FluentBuilder.pdb

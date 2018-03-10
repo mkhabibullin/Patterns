@@ -10,3 +10,10 @@ D:\Projects\patterns\Patterns\Patterns\Decorator\bin\Debug\Decorator.pdb
 D:\Projects\patterns\Patterns\Patterns\Decorator\obj\Debug\Decorator.csprojResolveAssemblyReference.cache
 D:\Projects\patterns\Patterns\Patterns\Decorator\obj\Debug\Decorator.exe
 D:\Projects\patterns\Patterns\Patterns\Decorator\obj\Debug\Decorator.pdb
+C:\Projects\Patterns\Patterns\Decorator\bin\Debug\Decorator.exe.config
+C:\Projects\Patterns\Patterns\Decorator\bin\Debug\Decorator.exe
+C:\Projects\Patterns\Patterns\Decorator\bin\Debug\Decorator.pdb
+C:\Projects\Patterns\Patterns\Decorator\obj\Debug\Decorator.csprojResolveAssemblyReference.cache
+C:\Projects\Patterns\Patterns\Decorator\obj\Debug\Decorator.csproj.CoreCompileInputs.cache
+C:\Projects\Patterns\Patterns\Decorator\obj\Debug\Decorator.exe
+C:\Projects\Patterns\Patterns\Decorator\obj\Debug\Decorator.pdb

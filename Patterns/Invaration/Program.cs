@@ -28,6 +28,16 @@ namespace Invaration
             ordinaryBank.DoOperation();
 
             Console.ReadLine();
+
+            Console.WriteLine("GENRIC INTERFACE");
+
+            var driver = DriverFactory.Get(1);
+            driver.Do();
+
+            driver = DriverFactory.Get(2);
+            driver.Do();
+
+            Console.ReadLine();
         }
     }
 
@@ -98,6 +108,76 @@ namespace Invaration
         public void Dot(A t)
         {
             throw new NotImplementedException();
+        }
+    }
+
+    ////////////// GENERIC FACTORY TEST
+    
+    public abstract class DiverDataBase
+    {
+
+    }
+    public abstract class DiverDataInBase
+    {
+
+    }
+
+    public class DiverData : DiverDataBase
+    {
+        public string Name { get; set; }
+    }
+
+    public class DiverDataIn : DiverDataInBase
+    {
+        public string Name { get; set; }
+    }
+
+    public interface IDriver<out TOut>
+    {
+        TOut Do();
+    }
+
+    public class DiverDataNew : DiverDataBase
+    {
+        public string Name { get; set; }
+    }
+
+    public class DiverDataOutNew : DiverDataInBase
+    {
+        public string Name { get; set; }
+    }
+
+    public class Driver : IDriver<DiverData>
+    {
+        public DiverData Do()
+        {
+            Console.WriteLine("Generic");
+            return new DiverData { Name = "Generic" };
+        }
+    }
+
+    public class DriverNew : IDriver<DiverDataNew>
+    {
+        public DiverDataNew Do()
+        {
+            Console.WriteLine("Generic New");
+            return new DiverDataNew { Name = "Generic new" };
+        }
+    }
+
+    public static class DriverFactory
+    {
+        public static IDriver<DiverDataBase> Get(int type)
+        {
+            if (type == 1)
+            {
+                return new Driver();
+            }
+            else if(type == 2)
+            {
+                return new DriverNew();
+            }
+            return null;
         }
     }
 }

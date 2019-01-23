@@ -15,3 +15,4 @@ C:\Projects\Patterns\Patterns\FluentBuilder\bin\Debug\FluentBuilder.pdb
 C:\Projects\Patterns\Patterns\FluentBuilder\obj\Debug\FluentBuilder.csproj.CoreCompileInputs.cache
 C:\Projects\Patterns\Patterns\FluentBuilder\obj\Debug\FluentBuilder.exe
 C:\Projects\Patterns\Patterns\FluentBuilder\obj\Debug\FluentBuilder.pdb
+C:\Projects\Patterns\Patterns\FluentBuilder\obj\Debug\FluentBuilder.csprojAssemblyReference.cache

@@ -15,7 +15,10 @@ namespace Polimorfizm
 
             c.CallArea(r);
             c.CallArea(t);
-            
+
+            // without dispatching
+            r.area((dynamic)c);
+            t.area(c);
         }
     }
 

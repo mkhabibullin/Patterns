@@ -3,42 +3,38 @@ using BenchmarkDotNet.Configs;
 using BenchmarkDotNet.Jobs;
 using BenchmarkDotNet.Running;
 using System;
-using System.Collections.Generic;
+using System.Diagnostics;
 
 namespace VisitorVsDynamic
 {
     class Program
     {
-        public static Shape[] Shapes;
+        public static Shape[] Shapes = 
+            new Shape[] { new Circle(1, 1), new Rectangle(2, 2) };
+
         static void Main(string[] args)
         {
-            Shapes = new Shape[] { new Circle(1, 1), new Rectangle(2, 2) };
-
             var summary = BenchmarkRunner.Run<Benchmark>(
                 ManualConfig
                     .Create(DefaultConfig.Instance)
-                    .With(Job.Core));
-
-            Console.WriteLine("Done!");
-            Console.Read();
+                    .With(Job.Core.WithIterationCount(150)));
         }
     }
 
     public class Benchmark
     {
-        [ParamsSource(nameof(Values))]
-        public Shape shape;
-
-        public IEnumerable<Shape> Values => Program.Shapes;
-
         [Benchmark]
         public void DoVisitor()
         {
             var maker = new Maker();
             var printer = new Printer();
 
-            shape.Do(maker);
-            shape.Do(printer);
+            //foreach (var shape in Program.Shapes)
+            foreach (var shape in new Shape[] { new Circle(1, 1), new Rectangle(2, 2) })
+            {
+                shape.Do(maker);
+                shape.Do(printer);
+            }
         }
 
         [Benchmark]
@@ -47,8 +43,12 @@ namespace VisitorVsDynamic
             var maker = new Maker();
             var printer = new Printer();
 
-            maker.Do((dynamic)shape);
-            printer.Do((dynamic)shape);
+            //foreach (var shape in Program.Shapes)
+            foreach (var shape in new Shape[] { new Circle(1, 1), new Rectangle(2, 2) })
+            {
+                maker.Do((dynamic)shape);
+                printer.Do((dynamic)shape);
+            }
         }
     }
 
@@ -118,12 +118,12 @@ namespace VisitorVsDynamic
     {
         public void Do(Circle circle)
         {
-            Console.WriteLine($"{circle.X}:{circle.Y}");
+            Trace.WriteLine($"{circle.X}:{circle.Y}");
         }
 
         public void Do(Rectangle rectangle)
         {
-            Console.WriteLine($"{rectangle.X}:{rectangle.Y}");
+            Trace.WriteLine($"{rectangle.X}:{rectangle.Y}");
         }
     }
 }

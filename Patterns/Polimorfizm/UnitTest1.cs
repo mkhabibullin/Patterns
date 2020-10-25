@@ -30,7 +30,7 @@ namespace Polimorfizm
         }
     }
 
-    public class A
+    class A
     {
         public void F()
         {
@@ -43,9 +43,9 @@ namespace Polimorfizm
         }
     }
 
-    public class B : A
+    class B : A
     {
-        public new void F()
+        public void F()
         {
             Trace.WriteLine("B.F");
         }

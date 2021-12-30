@@ -2,22 +2,22 @@ using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Order;
 using BenchmarkDotNet.Running;
 using System;
-using System.Buffers;
+using System.Text.RegularExpressions;
 
-namespace MemoryVsSpan
+namespace SpanPerformance
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var summary = BenchmarkRunner.Run(typeof(Program).Assembly);
+            BenchmarkRunner.Run(typeof(Program).Assembly);
         }
     }
 
     [RankColumn]
     [Orderer(SummaryOrderPolicy.FastestToSlowest)]
     [MemoryDiagnoser]
-    public class SpanBenchmark
+    public class SpanVsStringBenchmark
     {
         private const string FullName = "Mr. John Doe";
 

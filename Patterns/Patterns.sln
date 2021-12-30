@@ -137,7 +137,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QueueTests", "QueueTests\Qu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Performance", "Performance", "{788E56BC-71B6-48A8-B277-5E4BC1ED6549}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryVsSpan", "MemoryVsSpan\MemoryVsSpan.csproj", "{E603C21F-C377-4977-860D-BE77D245C116}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpanPerformance", "MemoryVsSpan\SpanPerformance.csproj", "{E603C21F-C377-4977-860D-BE77D245C116}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

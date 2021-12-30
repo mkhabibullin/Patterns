@@ -11,37 +11,6 @@ namespace MemoryVsSpan
         static void Main(string[] args)
         {
             var summary = BenchmarkRunner.Run(typeof(Program).Assembly);
-
-            //IMemoryOwner<string> memoryOwner = MemoryPool<string>.Shared.Rent();
-
-            //try
-            //{
-            //    var value = Console.ReadLine();
-
-            //    var memory = memoryOwner.Memory;
-
-            //    WriteToBuffer(value, memory);
-
-            //    DisplayBuffer(memory);
-            //}
-            //catch
-            //{
-            //    memoryOwner?.Dispose();
-            //}
-
-            Console.WriteLine("Done!");
-        }
-
-        static void WriteToBuffer(string value, Memory<string> buffer)
-        {
-            var span = buffer.Span;
-
-            span[0] = value;
-        }
-
-        static void DisplayBuffer(Memory<string> buffer)
-        {
-            Console.WriteLine(buffer.Span[0]);
         }
     }
 

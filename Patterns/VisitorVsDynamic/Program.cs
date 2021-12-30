@@ -1,6 +1,7 @@
 ﻿using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Configs;
 using BenchmarkDotNet.Jobs;
+using BenchmarkDotNet.Order;
 using BenchmarkDotNet.Running;
 using System;
 using System.Diagnostics;
@@ -14,13 +15,17 @@ namespace VisitorVsDynamic
 
         static void Main(string[] args)
         {
-            var summary = BenchmarkRunner.Run<Benchmark>(
-                ManualConfig
-                    .Create(DefaultConfig.Instance)
-                    .With(Job.Core.WithIterationCount(150)));
+            BenchmarkRunner.Run(typeof(Program).Assembly);
+            //var summary = BenchmarkRunner.Run<Benchmark>(
+            //    ManualConfig
+            //        .Create(DefaultConfig.Instance)
+            //        .With(Job.Core.WithIterationCount(150)));
         }
     }
 
+    [RankColumn]
+    [Orderer(SummaryOrderPolicy.FastestToSlowest)]
+    [MemoryDiagnoser]
     public class Benchmark
     {
         [Benchmark]
